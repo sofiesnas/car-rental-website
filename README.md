@@ -1,12 +1,10 @@
-# Online Car Rental System
+# Online Car Rental Website
 
-Web application designed for the web programming assignment at the University of Technology Sydney (UTS). This system allows users to browse, select, and rent cars with ease, leveraging AJAX and JSON for a dynamic user experience.
+Web application designed for the web programming assignment at the University of Technology Sydney (UTS). This system allows users to browse, select, and rent cars with ease, using AJAX and JSON for a dynamic user experience.
 
-## Project Overview
+![Screenrecord](images/screenrecord.gif)
 
-The Hertz-UTS Car Rental System offers an intuitive platform where customers can view, add to cart, and rent cars online. It features a diverse selection of vehicles categorised by type, such as Sedan, Wagon, and SUV, and ensures a streamlined operation from browsing to checkout.
-
-### [![Car Rental Website Demo Link](http://img.youtube.com/vi/bgWCCHb-Emk/0.jpg)](https://youtu.be/bgWCCHb-Emk "Car Rental Website Demo")
+🔗 [Demo](https://youtu.be/bgWCCHb-Emk)
 
 ## Objectives
 
@@ -36,3 +34,7 @@ The Hertz-UTS Car Rental System offers an intuitive platform where customers can
 - Validate the presence of cars in the cart and rental day inputs.
 - Collect and validate user delivery details and payment information.
 - Display rental history and apply charges accordingly.
+
+## Acknowledgements
+
+Design inspired by the Hertz website.
