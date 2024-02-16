@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- font awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- custom css -->
+      <link rel="stylesheet" href="style.css">
+      <title>Hertz-UTS Car Rental</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+          <a href="index.html">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+          <div class="cart-btn">
+            <span class="nav-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <div class="cart-items">0</div>
+          </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2 class="banner-title">Unlock Your Journey with Hertz-UTS.</h2>
+        <button id="scrollButton" class="banner-btn">Rent Our Cars</button>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- cars display -->
+    <section id="cars-section" class="products">
+      <div class="section-title">
+        <h2>Rent Our Cars</h2>
+      </div>
+      <div class="products-center">
+        <!-- car products will be dynamically added here -->
+      </div>
+    </section>
+    <!-- end of cars display -->
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fa-regular fa-xmark"></i>
+        </span>
+        <h2>Cart</h2>
+        <div class="cart-content">
+          <div class="cart-item">
+            <!-- cart items will be dynamically added here -->
+          </div>
+        </div>
+        <div class="cart-footer">
+          <h3>Total : $ <span class="cart-total">0</span></h3>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-center">
+        <h3>Hertz-UTS Car Hire.</h3>
+        <h5>Welcome to Hertz-UTS, your exclusive car rental service tailored for the University of Technology Sydney (UTS) community. Discover Sydney at your own pace with Hertz-UTS. With a wide range of vehicles to choose from, you can easily book your car online using our reservation system. Take advantage of our latest offers on car rentals, exclusively available for UTS students and staff. Whether you're planning a weekend getaway or a road trip, Hertz-UTS offers great deals and is the ultimate destination for all your car hire needs.</h5>
+      </div>
+      <div class="footer-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- font awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- custom css -->
+      <link rel="stylesheet" href="style.css">
+      <title>Hertz-UTS Car Rental</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <a href="index.html">
+          <img src="./images/logo.svg" alt="logo">
+        </a>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- checkout -->
+    <div class="checkout-page">
+      <div class="section-title">
+        <h2>Checkout</h2>
+      </div>
+      <div class="container">
+        <form action="#" id="checkoutForm">
+            <div class="row">
+                <div class="col">
+                  <h3 class="title">customer details</h3>
+                  <div class="inputBox">
+                      <span class="required-field">first name :</span>
+                      <input type="text" name="firstName" placeholder="Zhang" required>
+                  </div>
+                  <div class="inputBox">
+                    <span class="required-field">last name :</span>
+                    <input type="text" name="lastName" placeholder="Hao" required>
+                  </div>
+                  <div class="inputBox">
+                      <span class="required-field">email :</span>
+                      <input type="email" name="email" placeholder="zhao@zerobaseone.com" required>
+                  </div>
+                </div>
+                <div class="col">
+                  <h3 class="title">billing address</h3>
+                  <div class="inputBox">
+                      <span class="required-field">address line 1:</span>
+                      <input type="text" name="addressLine1" placeholder="1 Zerobase Rd" required>
+                  </div>
+                  <div class="inputBox">
+                    <span>address line 2:</span>
+                    <input type="text" name="addressLine2" placeholder="The Zero Base">
+                  </div>
+                  <div class="inputBox">
+                      <span class="required-field">suburb :</span>
+                      <input type="text" name="suburb" placeholder="Boys Planet" required>
+                  </div>
+                  <div class="flex">
+                    <div class="inputBox">
+                      <span class="required-field">state :</span>
+                      <input type="text" name="state" placeholder="NSW" required>
+                    </div>
+                    <div class="inputBox">
+                      <span class="required-field">postcode :</span>
+                      <input type="text" name="postcode" pattern="[0-9]{4}" placeholder="2000" required>
+                      <small>Enter a 4-digit postcode.</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <h3 class="title">payment</h3>
+                    <div class="inputBox">
+                      <span class="required-field">payment type :</span>
+                        <select id="paymentType" required>
+                          <option value="Visa">Visa</option>
+                          <option value="MasterCard">MasterCard</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                      <span class="required-field">name on card :</span>
+                      <input type="text" placeholder="Zhang Hao" required>
+                    </div>
+                    <div class="inputBox">
+                      <span class="required-field">credit card number :</span>
+                      <input type="text" pattern="[0-9]{16}" placeholder="0000111101011010" required>
+                      <small>Enter a 16-digit credit card number.</small>
+                    </div>
+                    <div class="flex">
+                      <div class="inputBox">
+                          <span class="required-field">expiry :</span>
+                          <input type="text" pattern="[0-9]{2}/[0-9]{2}" placeholder="MM/YY" required>
+                      </div>
+                      <div class="inputBox">
+                          <span class="required-field">CVV :</span>
+                          <input type="text" pattern="[0-9]{3}" placeholder="257" required>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="booking-cost">
+              <p id="total-cost">cost :</p>
+              <p id="bond-amount">Bond Amount :</p>
+              <p id="grand-total">Total Cost :</p>
+            </div>
+            <div class="checkout-buttons">
+              <div class="full-browse">
+                <i class="fa-solid fa-chevron-left"></i>
+                <a href="index.html" class="shop-btn banner-btn">Browse More Cars</a>
+              </div>
+              <input type="submit" value="book" class="submit-btn banner-btn">
+            </div>
+          </form>
+      </div>  
+    </div>
+    <!-- end of checkout -->
+    
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-center">
+        <h3>Hertz-UTS Car Hire.</h3>
+        <h5>Welcome to Hertz-UTS, your exclusive car rental service tailored for the University of Technology Sydney (UTS) community. Discover Sydney at your own pace with Hertz-UTS. With a wide range of vehicles to choose from, you can easily book your car online using our reservation system. Take advantage of our latest offers on car rentals, exclusively available for UTS students and staff. Whether you're planning a weekend getaway or a road trip, Hertz-UTS offers great deals and is the ultimate destination for all your car hire needs.</h5>
+      </div>
+      <div class="footer-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="checkout.js"></script>
+  </body>
+</html>
