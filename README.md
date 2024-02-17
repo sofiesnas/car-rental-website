@@ -1,6 +1,6 @@
-# Online Car Rental Website
+# Online Car Rental System
 
-Web application designed for the web programming assignment at the University of Technology Sydney (UTS). This system allows users to browse, select, and rent cars with ease, using AJAX and JSON for a dynamic user experience.
+A web application that allows users to browse, select, and rent cars with ease, using AJAX and JSON for a dynamic user experience.
 
 ![Screenrecord](images/screenrecord.gif)
 
@@ -38,3 +38,4 @@ Web application designed for the web programming assignment at the University of
 ## Acknowledgements
 
 Design inspired by the Hertz website.
+Part of an assignment for the Internet Programming subject at the University of Technology Sydney (UTS).
